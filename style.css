@@ -1,0 +1,118 @@
+/* ----- Longin Livre ----- */
+.login {
+    align-items: center;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    flex-flow: column wrap;
+    height: 100vh;
+    border: 2px solid red;
+    /*align-items: stretch; se estica até caber no container só se nao definir a alturar*/
+    /*justify-content: space-between; espaço entre eles*/
+    /*justify-content: space-around; - espaço ao redor*/
+
+    background-color: blue;
+}
+
+.caixa {
+    align-items: center;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 13px;
+}
+
+.email {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.senha {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.esqueci {
+    padding-top: 0;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    padding-inline: 95px;
+    border-radius: 14px;
+}
+
+
+/* ----- Login com duas DIVs ----- */
+
+/* ----- Login2 ----- */ 
+
+.formulario {
+/* cantainer pai */    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #480ca8;
+}
+
+/* aqui o quadro branco */
+.login2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    gap: 5px
+}
+
+.login2 h1 {
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.login2 p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.login2 input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.login2 label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login2 input:focus {
+    border: 2px solid #f72585;
+}
+
+.login2 .btn {
+    padding-inline: 60px;
+    color: #ffffff;
+    background-color: #f72585;
+}
